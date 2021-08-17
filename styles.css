@@ -1,0 +1,69 @@
+body {
+    background-color: #202225;
+}
+
+.bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #202225;
+    width: 100%;
+    color: #72767D;
+    font-weight: bolder;
+    padding: 1px 0;
+}
+
+.bar p {
+    top: 0;
+    font-size: small;
+    margin: 0 0 0 0;
+    padding-left: 10px;
+}
+
+.servers {
+    position: fixed;
+    padding-left: 10px;
+    margin-top: 18px;
+    left: 0;
+    background-color: #202225;
+    width: 48px;
+    height: 100%;
+}
+
+.servers .server {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.servers .server img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.servers .server img:hover {
+    border-radius: 20%;
+}
+
+.servers .server .basic {
+    background-color: #5865F2;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.servers .server .basic img {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+hr {
+    height: 2px;
+    width: 25px;
+    border-width: 0;
+    background-color: #2D2F32;
+    
+}
