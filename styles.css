@@ -43,7 +43,7 @@ body {
 }
 
 .servers .server img:hover {
-    border-radius: 20%;
+    border-radius: 35%;
 }
 
 .servers .server .basic {
@@ -65,5 +65,31 @@ hr {
     width: 25px;
     border-width: 0;
     background-color: #2D2F32;
-    
 }
+
+.channels {
+    position: fixed;
+    margin-left: 60px;
+    margin-top: 12px;
+    background-color: #2F3136;
+    height: 97%;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.chats {
+    position: fixed;
+    margin-top: 12px;
+    margin-left: 310px;
+    background-color: #36393F;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* .users {
+    background-color: #2F3136;
+    height: 97%;
+    width: 250px;
+    border-radius: 10px;
+} */
