@@ -74,7 +74,50 @@ hr {
     background-color: #2F3136;
     height: 97%;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.channel {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 900;
+    color: #A9AAAB;
+}
+
+.margin {
+    margin-top: 60px;
+}
+
+.channels .top {
+    position: fixed;
+    background-color: #2F3136;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 1px 1px 5px #202225;
+}
+
+.channels .top p {
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.chats .top {
+    position: fixed;
+    background-color: #2F3136;
+    height: 50px;
+    width: 50%;
+    box-shadow: 1px 1px 5px #202225;
+}
+
+.chats .top p {
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 .chats {
@@ -84,7 +127,7 @@ hr {
     background-color: #36393F;
     height: 100%;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 0px 10px 0px 0px;
 }
 
 /* .users {
