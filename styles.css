@@ -31,8 +31,6 @@ body {
 }
 
 .servers .server {
-    width: 48px;
-    height: 48px;
     margin-bottom: 10px;
 }
 
@@ -78,42 +76,43 @@ hr {
 }
 
 .channel {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
     margin-left: 15px;
     font-weight: 900;
     color: #A9AAAB;
 }
 
+.group {
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #A9AAAB;
+    font-size: 12px;
+}
+
 .margin {
-    margin-top: 60px;
+    margin-top: 80px;
+}
+
+:is(.channels, .chats) .top {
+    position: fixed;
+    background-color: #2F3136;
+    height: 50px;
+    box-shadow: 1px 1px 5px #202225;
+    padding-left: 10px;
 }
 
 .channels .top {
-    position: fixed;
-    background-color: #2F3136;
-    height: 50px;
     width: 250px;
     border-radius: 10px 0px 0px 0px;
-    box-shadow: 1px 1px 5px #202225;
-}
-
-.channels .top p {
-    color: #ffffff;
-    padding-left: 10px;
-    font-size: 15px;
-    font-weight: bolder;
 }
 
 .chats .top {
-    position: fixed;
-    background-color: #2F3136;
-    height: 50px;
     width: 50%;
-    box-shadow: 1px 1px 5px #202225;
+    border-radius: 0px 0px 0px 0px;
 }
 
-.chats .top p {
+:is(.chats, .channels) .top p {
     color: #ffffff;
     padding-left: 10px;
     font-size: 15px;
