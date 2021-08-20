@@ -108,7 +108,7 @@ hr {
 }
 
 .chats .top {
-    width: 50%;
+    width: calc(50% - 10px);
     border-radius: 0px 0px 0px 0px;
 }
 
@@ -121,12 +121,25 @@ hr {
 
 .chats {
     position: fixed;
+    color: #ffffff;
     margin-top: 12px;
     margin-left: 310px;
     background-color: #36393F;
     height: 100%;
     width: 50%;
     border-radius: 0px 10px 0px 0px;
+}
+
+.chat {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, minmax(50px, auto));
+}
+
+.profile {
+    background-color: gray;
+    grid-column: 0 / 2;
+    grid-row: 0 / 2;
 }
 
 /* .users {
